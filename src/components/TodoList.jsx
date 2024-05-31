@@ -14,8 +14,9 @@ const TodoList = ({
     <>
       <VStack
         w={"100vw"}
-        h={"70vh"}
+        h={"1000px"}
         px={"3vw"}
+        // bg={"gray"}
         sx={{
           overflowY: "scroll",
           scrollbarWidth: "none", // For Firefox

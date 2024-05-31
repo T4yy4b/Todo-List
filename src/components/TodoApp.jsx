@@ -53,7 +53,7 @@ const TodoApp = () => {
   };
 
   return (
-    <VStack w={"100vw"} h={"100vh"} bg={"black"}>
+    <VStack w={"100vw"} h={"100vh"} bg={"black"} py={"2vw"}>
       <TodoHeader />
       <TodoList
         tasks={tasks}

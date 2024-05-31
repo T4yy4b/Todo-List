@@ -19,7 +19,7 @@ const TodoForm = ({ addTask }) => {
 
   return (
     <form onSubmit={handleSubmit}>
-      <FormControl w="100vw" px={"3vw"}>
+      <FormControl w="100vw" px={"3vw"} my={"20px"}>
         <HStack
           w="100%"
           h="50px"
